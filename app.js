@@ -7,7 +7,7 @@ const projects = [
         tech: ["ATP/ATO", "TCMS", "ClearQuest", "Movement Authority", "Emergency Braking"],
         shortDesc: "End-to-end functional requirement review, test case development, and verification scenario execution for onboard ATP/ATO train control systems.",
         fullDesc: "Carried out within the Vulcain Engineering Group for ALSTOM railway projects, this work centers on ensuring absolute functional reliability of Automatic Train Protection (ATP) and Automatic Train Operation (ATO) subsystems. Responsibilities include reviewing software functional requirements for coverage, consistency, and traceability, designing robust test cases, and executing complex verification scenarios covering Movement Authority (MA) management, speed supervision, Emergency Braking (EB), and real-time ATP/ATO–TCMS traction and braking command interactions. Specification defects and anomalies are rigorously tracked via ClearQuest in close collaboration with Design and RAMS teams.",
-        image: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+        image: "https://www.railwaypro.com/wp/wp-content/uploads/2023/11/RERNG%C2%A9SamuelDhote_1360-1.jpg"
     },
     {
         id: "ertms-etcs-onboard",
@@ -16,7 +16,7 @@ const projects = [
         tech: ["ERTMS/ETCS", "CENELEC EN 50128", "IBM DOORS", "DMI", "Level Transitions"],
         shortDesc: "CENELEC-compliant verification and validation of ERTMS/ETCS Onboard signalling functions, level transitions, and DMI data.",
         fullDesc: "Delivered for ALSTOM projects at Alten Maroc, this engagement encompassed full-lifecycle verification and validation of ERTMS/ETCS Onboard signalling functions in strict compliance with CENELEC EN 50126, EN 50128, and EN 50129 standards. Work included reviewing system and subsystem specifications, authoring safety-aligned test plans, and executing functional test scenarios for Movement Authority (MA), speed supervision curves, driving mode transitions, ETCS level transitions, Emergency Braking, and Driver Machine Interface (DMI) application data validation.",
-        image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+        image: "https://www.alstom.com/sites/alstom.com/files/2020/06/02/AlstomGermanyJ2%2035.jpg"
     },
     {
         id: "ma-speed-eb",
@@ -52,7 +52,7 @@ const projects = [
         tech: ["Embedded Coder", "C / C++", "CANalyzer", "CAN / LIN", "Git / GitHub"],
         shortDesc: "Production C code generation via Embedded Coder and bus-level debugging using CANalyzer across international engineering teams.",
         fullDesc: "Bridging graphical Simulink models and target automotive hardware required rigorous Model-in-the-Loop (MIL) and Software-in-the-Loop (SIL) verification, automated C code generation with Embedded Coder, and frame-level network diagnostics over CAN and LIN buses using Vector CANalyzer. Version control and collaborative releases were managed via Git and GitHub in coordination with distributed engineering teams across France, Italy, Romania, China, and India.",
-        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+        image: "https://images.ansys.com/is/image/ansys/bmw-lp-og4-1?wid=1200"
     }
 ];
 
