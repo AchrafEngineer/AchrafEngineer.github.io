@@ -43,7 +43,7 @@ const projects = [
         tech: ["AUTOSAR", "MATLAB/Simulink", "ISO 26262", "MISRA C", "MAAB"],
         shortDesc: "Design and modeling of AUTOSAR-compliant software components for Central ECU (VSM) covering Cluster, Chassis, and Braking interfaces.",
         fullDesc: "As a Model-Based Design Software Architect at Alten Maroc, I architected AUTOSAR-compliant software components (interfaces and I/O) for the Vehicle System Manager (VSM) Central ECU within the EE 2020 (NEA) automotive electrical architecture. Using MATLAB/Simulink, I modeled functional subsystems governing Cluster, Chassis, and Braking interfaces directly from OEM customer requirements while enforcing ISO 26262 functional safety, MAAB modeling guidelines, and MISRA C compliance.",
-        image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+        image: "https://www.aranca.com/assets/uploads/blogs/Biomimicry.jpg"
     },
     {
         id: "embedded-coder-can",
