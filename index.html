@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achraf Mzyiene | Railway V&V & Signalling Systems Engineer</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-black text-white overflow-x-hidden antialiased">
+
+    <!-- 3D Canvas Background -->
+    <canvas id="webgl-canvas" class="fixed top-0 left-0 w-full h-full z-0 pointer-events-none"></canvas>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-40 px-6 py-4 flex justify-between items-center backdrop-blur-md bg-black/40 border-b border-white/5">
+        <a href="#" class="font-['Syncopate'] text-2xl font-bold tracking-widest text-white logo-anim">
+            AM<span class="text-amber-400">.</span>
+        </a>
+        <div class="hidden md:flex space-x-8 font-['Space_Grotesk'] text-sm tracking-wide">
+            <a href="#about" class="nav-link hover:text-amber-400 transition-colors">ABOUT</a>
+            <a href="#experience" class="nav-link hover:text-amber-400 transition-colors">EXPERIENCE</a>
+            <a href="#education" class="nav-link hover:text-amber-400 transition-colors">EDUCATION</a>
+            <a href="#projects" class="nav-link hover:text-amber-400 transition-colors">DOMAINS</a>
+            <a href="#contact" class="nav-link hover:text-amber-400 transition-colors">CONTACT</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="Achraf_Mzyiene_CV.pdf" download="Achraf_Mzyiene_CV.pdf" target="_blank" class="border border-amber-400/50 hover:border-amber-400 hover:bg-amber-400 hover:text-black px-5 py-2 rounded-full text-xs font-['Space_Grotesk'] font-semibold tracking-wider transition-all flex items-center gap-2">
+                <i class="fas fa-download text-[10px]"></i> RESUME
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="smooth-wrapper" class="relative z-10">
+        <div id="smooth-content">
+            
+            <!-- Hero Section -->
+            <section class="min-h-screen flex flex-col justify-center items-start px-6 md:px-20 pt-20 relative">
+                <div class="hero-content z-10 pointer-events-auto max-w-5xl">
+                    <div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 mb-6 reveal-text">
+                        <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                        <span class="font-['Space_Grotesk'] text-amber-400 text-xs md:text-sm tracking-[0.2em] uppercase">
+                            Railway V&V Engineer &bull; Signalling &bull; ATP/ATO &bull; ERTMS/ETCS
+                        </span>
+                    </div>
+
+                    <h1 class="font-['Syncopate'] text-5xl md:text-8xl font-bold leading-tight uppercase mb-6 split-text">
+                        Achraf <br/> Mzyiene
+                    </h1>
+
+                    <p class="font-['Space_Grotesk'] text-gray-300 max-w-2xl text-lg md:text-xl leading-relaxed reveal-text-delay">
+                        Specialised in railway signalling, train control systems, and safety-critical embedded software with <span class="text-white font-semibold">3+ years of industrial experience</span>—including 2+ years delivering rigorous V&V on <span class="text-amber-400 font-semibold">ALSTOM</span> ERTMS/ETCS and ATP/ATO projects under CENELEC EN 50126/50128/50129.
+                    </p>
+
+                    <div class="mt-10 flex flex-wrap gap-6 items-center reveal-button">
+                        <a href="#experience" class="bg-amber-500 hover:bg-amber-400 text-black px-8 py-4 rounded-full font-['Space_Grotesk'] font-bold tracking-wider transition-all transform hover:scale-105 shadow-[0_0_25px_rgba(245,158,11,0.3)]">
+                            VIEW EXPERIENCE
+                        </a>
+                        <a href="Achraf_Mzyiene_CV.pdf" download="Achraf_Mzyiene_CV.pdf" target="_blank" class="border border-white/20 hover:border-amber-400 hover:text-amber-400 px-8 py-4 rounded-full font-['Space_Grotesk'] font-bold tracking-wider transition-all">
+                            DOWNLOAD CV
+                        </a>
+                        <div class="flex gap-4 items-center">
+                            <a href="https://www.linkedin.com/in/achraf-mzyiene-127778214/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center hover:border-amber-400 hover:text-amber-400 transition-all">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=achrafmzyiene2000@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" class="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center hover:border-amber-400 hover:text-amber-400 transition-all">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="tel:+212682946746" aria-label="Phone" class="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center hover:border-amber-400 hover:text-amber-400 transition-all">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--   indicator -->
+                <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-50  -indicator">
+                    <span class="font-['Space_Grotesk'] text-xs tracking-[0.3em] mb-2 rotate-90 origin-bottom translate-y-[-20px]"> </span>
+                    <div class="w-[1px] h-16 bg-gradient-to-b from-amber-400 to-transparent"></div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="min-h-screen py-32 px-6 md:px-20 flex items-center">
+                <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <div class="about-text lg:col-span-8">
+                        <h2 class="font-['Syncopate'] text-4xl md:text-6xl font-bold mb-8 uppercase section-title">
+                            Safety-Critical<br>
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">Precision</span>
+                        </h2>
+                        <p class="font-['Space_Grotesk'] text-gray-300 text-lg leading-relaxed mb-6">
+                            As a Railway Verification &amp; Validation (V&amp;V) Engineer and former Automotive Model-Based Design Software Architect, my work sits at the core of mission-critical mobility systems. From onboard <strong class="text-white">ERTMS/ETCS</strong> and <strong class="text-white">ATP/ATO</strong> train control subsystems to <strong class="text-white">AUTOSAR</strong> central ECUs, I ensure every functional requirement translates into deterministic, fail-safe operational behavior.
+                        </p>
+                        <p class="font-['Space_Grotesk'] text-gray-300 text-lg leading-relaxed">
+                            Whether verifying Movement Authority (MA), Speed Supervision, and Emergency Braking curves or managing end-to-end requirements traceability in <strong class="text-white">IBM DOORS</strong> and <strong class="text-white">ClearQuest</strong>, I bring rigorous methodology aligned with <strong class="text-amber-400">CENELEC EN 50126 / 50128 / 50129</strong> and <strong class="text-amber-400">ISO 26262</strong> standards.
+                        </p>
+                        
+                        <div class="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 font-['Space_Grotesk'] border-t border-white/10 pt-8">
+                            <div>
+                                <h4 class="text-amber-400 font-bold mb-4 tracking-wider text-sm uppercase">Railway &amp; Signalling</h4>
+                                <ul class="space-y-2 text-gray-400 text-sm">
+                                    <li>ERTMS / ETCS Onboard</li>
+                                    <li>ATP / ATO &amp; TCMS / DMI</li>
+                                    <li>Movement Authority (MA)</li>
+                                    <li>Speed Supervision &amp; EB</li>
+                                    <li>ETCS Level Transitions</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="text-amber-400 font-bold mb-4 tracking-wider text-sm uppercase">V&amp;V &amp; Standards</h4>
+                                <ul class="space-y-2 text-gray-400 text-sm">
+                                    <li>CENELEC EN 50126/128/129</li>
+                                    <li>ISO 26262 &amp; MISRA C</li>
+                                    <li>ISTQB&reg; CTFL Certified</li>
+                                    <li>Requirements Traceability</li>
+                                    <li>Functional Test Design</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="text-amber-400 font-bold mb-4 tracking-wider text-sm uppercase">Tools &amp; Stack</h4>
+                                <ul class="space-y-2 text-gray-400 text-sm">
+                                    <li>IBM DOORS &amp; ClearQuest</li>
+                                    <li>MATLAB / Simulink (MBD)</li>
+                                    <li>AUTOSAR &amp; CANalyzer</li>
+                                    <li>Python, C / C++, VBA</li>
+                                    <li>CAN, LIN, GSM-R, Git</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Profile Photo Container (Smaller & Compact) -->
+                    <div class="lg:col-span-4 flex flex-col items-center">
+                        <div id="about-photo-container" class="w-full max-w-[280px] sm:max-w-[320px] h-[340px] sm:h-[380px] rounded-2xl border border-amber-500/20 bg-white/5 backdrop-blur-md relative overflow-hidden flex items-center justify-center group shadow-[0_0_40px_rgba(245,158,11,0.1)]">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
+                            <img src="photo.jpg.jpeg" alt="Achraf Mzyiene" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute bottom-4 left-4 right-4 z-20 flex items-center justify-between">
+                                <div>
+                                    <p class="font-['Syncopate'] text-xs font-bold text-white">ACHRAF MZYIENE</p>
+                                    <p class="font-['Space_Grotesk'] text-[11px] text-amber-400">Fez, Morocco &bull; ISTQB&reg; CTFL</p>
+                                </div>
+                                <span class="px-2.5 py-1 rounded-full bg-amber-500/20 border border-amber-400/40 text-amber-300 font-['Space_Grotesk'] text-[11px]">
+                                    3+ Yrs Exp
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Experience Section (Primary Focus) -->
+            <section id="experience" class="py-32 px-6 md:px-20 bg-zinc-950/50 relative border-t border-b border-white/5">
+                <div class="max-w-5xl mx-auto">
+                    <p class="text-center font-['Space_Grotesk'] text-amber-400 tracking-[0.25em] text-sm uppercase mb-3">Career Track Record</p>
+                    <h2 class="font-['Syncopate'] text-4xl md:text-6xl font-bold mb-20 text-center uppercase section-title">
+                        Professional<br>Experience
+                    </h2>
+                    
+                    <div class="relative border-l border-amber-500/30 ml-4 md:ml-0 space-y-20 exp-timeline">
+                        
+                        <!-- Exp 1: Vulcain Engineering Group -->
+                        <div class="exp-item relative pl-8 md:pl-12">
+                            <div class="absolute w-4 h-4 bg-amber-400 rounded-full left-[-8px] top-2 shadow-[0_0_15px_#fbbf24]"></div>
+                            <div class="p-8 rounded-2xl bg-zinc-900/60 backdrop-blur-md border border-white/10 hover:border-amber-500/40 transition-all">
+                                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-3 gap-2">
+                                    <div>
+                                        <span class="inline-block px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-400 font-['Space_Grotesk'] text-xs font-semibold tracking-wider uppercase mb-2">
+                                            Client: ALSTOM &bull; Hybrid (Fès-Meknès)
+                                        </span>
+                                        <h3 class="font-['Syncopate'] text-xl md:text-2xl font-bold text-white">Vulcain Engineering Group</h3>
+                                    </div>
+                                    <span class="font-['Space_Grotesk'] text-amber-400 font-semibold tracking-wider text-sm bg-amber-500/10 px-4 py-1.5 rounded-full border border-amber-500/20 w-fit">
+                                        Feb 2026 – Present
+                                    </span>
+                                </div>
+
+                                <h4 class="font-['Space_Grotesk'] text-xl text-gray-200 font-semibold mb-6">
+                                    V&amp;V Engineer — Railway Signalling and Train Control Systems (ATP/ATO)
+                                </h4>
+
+                                <ul class="font-['Space_Grotesk'] text-gray-300 space-y-3 mb-6 list-disc list-inside leading-relaxed">
+                                    <li>Review software functional requirements for <strong class="text-white">ATP/ATO functions</strong> to ensure complete coverage, consistency, and bidirectional traceability.</li>
+                                    <li>Develop and update structured test cases based on functional and safety requirements for onboard ATP/ATO systems.</li>
+                                    <li>Define and execute verification scenarios for critical train control functions: <strong class="text-white">Movement Authority (MA)</strong> management, <strong class="text-white">speed supervision</strong>, <strong class="text-white">Emergency Braking (EB)</strong>, and <strong class="text-white">ATP/ATO–TCMS interaction</strong> for traction and braking commands.</li>
+                                    <li>Report, track, and manage specification defects and software anomalies using <strong class="text-white">IBM ClearQuest</strong>.</li>
+                                    <li>Participate in formal design and verification reviews, address technical comments, and author comprehensive verification and test reports.</li>
+                                    <li>Collaborate closely with <strong class="text-white">Design and RAMS teams</strong> to resolve technical comments, clarify functional behaviour, and maintain alignment across requirements, design, and verification.</li>
+                                </ul>
+
+                                <div class="flex flex-wrap gap-2 pt-4 border-t border-white/10">
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-300">ATP / ATO</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-300">TCMS Interaction</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-300">Movement Authority (MA)</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-300">Speed Supervision &amp; EB</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-300">ClearQuest</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-300">RAMS Collaboration</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Exp 2: Alten Maroc (ALSTOM) -->
+                        <div class="exp-item relative pl-8 md:pl-12">
+                            <div class="absolute w-4 h-4 bg-amber-500/70 rounded-full left-[-8px] top-2"></div>
+                            <div class="p-8 rounded-2xl bg-zinc-900/60 backdrop-blur-md border border-white/10 hover:border-amber-500/40 transition-all">
+                                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-3 gap-2">
+                                    <div>
+                                        <span class="inline-block px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-400 font-['Space_Grotesk'] text-xs font-semibold tracking-wider uppercase mb-2">
+                                            Client: ALSTOM &bull; Rabat, Morocco
+                                        </span>
+                                        <h3 class="font-['Syncopate'] text-xl md:text-2xl font-bold text-white">Alten Maroc</h3>
+                                    </div>
+                                    <span class="font-['Space_Grotesk'] text-gray-300 font-semibold tracking-wider text-sm bg-white/5 px-4 py-1.5 rounded-full border border-white/10 w-fit">
+                                        Oct 2024 – Jan 2026
+                                    </span>
+                                </div>
+
+                                <h4 class="font-['Space_Grotesk'] text-xl text-gray-200 font-semibold mb-6">
+                                    V&amp;V Engineer — Railway Signalling (ERTMS/ETCS Onboard)
+                                </h4>
+
+                                <ul class="font-['Space_Grotesk'] text-gray-300 space-y-3 mb-6 list-disc list-inside leading-relaxed">
+                                    <li>Performed full-lifecycle verification and validation of <strong class="text-white">ERTMS/ETCS Onboard</strong> signalling functions in strict compliance with <strong class="text-white">CENELEC EN 50126, EN 50128, and EN 50129</strong>.</li>
+                                    <li>Reviewed system and subsystem specifications for clarity, testability, and compliance with safety and operational requirements.</li>
+                                    <li>Authored detailed test plans aligned with project milestones and railway safety objectives.</li>
+                                    <li>Designed and executed functional test scenarios covering <strong class="text-white">Movement Authority (MA)</strong> management, <strong class="text-white">speed supervision</strong>, <strong class="text-white">driving mode and ETCS level transitions</strong>, <strong class="text-white">Emergency Braking</strong>, and <strong class="text-white">DMI (Driver Machine Interface)</strong> application data validation.</li>
+                                    <li>Managed end-to-end requirements traceability and imported verification results into <strong class="text-white">IBM DOORS</strong> to guarantee full audit readiness.</li>
+                                    <li>Partnered with cross-functional engineering, quality, and safety teams to achieve formal validation sign-offs.</li>
+                                </ul>
+
+                                <div class="flex flex-wrap gap-2 pt-4 border-t border-white/10">
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">ERTMS / ETCS Onboard</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">CENELEC EN 50126/50128/50129</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">IBM DOORS</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">ETCS Level Transitions</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">DMI Validation</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">Doc4A &amp; AEC</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Exp 3: Alten Maroc (Automotive MBD) -->
+                        <div class="exp-item relative pl-8 md:pl-12">
+                            <div class="absolute w-4 h-4 bg-gray-600 rounded-full left-[-8px] top-2"></div>
+                            <div class="p-8 rounded-2xl bg-zinc-900/60 backdrop-blur-md border border-white/10 hover:border-amber-500/40 transition-all">
+                                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-3 gap-2">
+                                    <div>
+                                        <span class="inline-block px-3 py-1 rounded-full bg-white/5 border border-white/15 text-gray-300 font-['Space_Grotesk'] text-xs font-semibold tracking-wider uppercase mb-2">
+                                            Automotive Embedded Systems &bull; Rabat, Morocco
+                                        </span>
+                                        <h3 class="font-['Syncopate'] text-xl md:text-2xl font-bold text-white">Alten Maroc</h3>
+                                    </div>
+                                    <span class="font-['Space_Grotesk'] text-gray-300 font-semibold tracking-wider text-sm bg-white/5 px-4 py-1.5 rounded-full border border-white/10 w-fit">
+                                        Mar 2023 – Oct 2024
+                                    </span>
+                                </div>
+
+                                <h4 class="font-['Space_Grotesk'] text-xl text-gray-200 font-semibold mb-6">
+                                    Model-Based Design Software Architect (Automotive)
+                                </h4>
+
+                                <ul class="font-['Space_Grotesk'] text-gray-300 space-y-3 mb-6 list-disc list-inside leading-relaxed">
+                                    <li>Designed <strong class="text-white">AUTOSAR-compliant</strong> software components (interfaces and I/O) for the <strong class="text-white">Central ECU (VSM)</strong> on the <strong class="text-white">EE 2020 (NEA)</strong> architecture, covering Cluster, Chassis, and Braking interfaces.</li>
+                                    <li>Modelled complex control and interface logic in <strong class="text-white">MATLAB/Simulink</strong> using Model-Based Design (MBD) directly from customer specifications.</li>
+                                    <li>Enforced <strong class="text-white">MISRA C, MAAB, and ISO 26262</strong> functional safety guidelines; debugged models and bus traffic using <strong class="text-white">CANalyzer</strong>, Simulink, and C code; generated production C code with <strong class="text-white">Embedded Coder</strong>.</li>
+                                    <li>Managed software configuration and versioning on <strong class="text-white">Git / GitHub</strong> while collaborating across multicultural engineering teams in France, Italy, Romania, China, and India.</li>
+                                </ul>
+
+                                <div class="flex flex-wrap gap-2 pt-4 border-t border-white/10">
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">AUTOSAR</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">MATLAB / Simulink</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">Embedded Coder</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">ISO 26262 &amp; MISRA C</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">CANalyzer</span>
+                                    <span class="text-xs font-['Space_Grotesk'] px-3 py-1 bg-white/5 border border-white/10 rounded-full text-gray-200">Git / GitHub</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education & Certifications Section -->
+            <section id="education" class="py-28 px-6 md:px-20">
+                <div class="max-w-6xl mx-auto">
+                    <p class="text-center font-['Space_Grotesk'] text-amber-400 tracking-[0.25em] text-sm uppercase mb-3">Academic Foundation &amp; Credentials</p>
+                    <h2 class="font-['Syncopate'] text-3xl md:text-5xl font-bold mb-16 text-center uppercase section-title">
+                        Education &amp; <span class="text-amber-400">Certifications</span>
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 font-['Space_Grotesk']">
+                        <!-- Degree 1 -->
+                        <div class="p-8 rounded-2xl bg-zinc-900/50 backdrop-blur-md border border-white/10 hover:border-amber-500/40 transition-all">
+                            <span class="text-amber-400 text-xs font-bold tracking-widest uppercase">2020 – 2023</span>
+                            <h3 class="font-['Syncopate'] text-lg font-bold text-white mt-2 mb-3">Engineering Degree in Intelligent Systems</h3>
+                            <p class="text-gray-400 text-sm mb-4">Faculty of Sciences and Technics (FST), Fez</p>
+                            <p class="text-gray-500 text-xs leading-relaxed">
+                                State Engineering curriculum focused on embedded architectures, control systems, real-time computing, and intelligent automation.
+                            </p>
+                        </div>
+
+                        <!-- Degree 2 -->
+                        <div class="p-8 rounded-2xl bg-zinc-900/50 backdrop-blur-md border border-white/10 hover:border-amber-500/40 transition-all">
+                            <span class="text-amber-400 text-xs font-bold tracking-widest uppercase">2018 – 2020</span>
+                            <h3 class="font-['Syncopate'] text-lg font-bold text-white mt-2 mb-3">DEUST in Science &amp; Technology</h3>
+                            <p class="text-gray-400 text-sm mb-4">Faculty of Sciences and Technics (FST), Fez</p>
+                            <p class="text-gray-500 text-xs leading-relaxed">
+                                Diploma of Higher Education in Science and Technology—intensive preparatory foundation in mathematics, physics, electronics, and computer science.
+                            </p>
+                        </div>
+
+                        <!-- Certifications & Languages -->
+                        <div class="p-8 rounded-2xl bg-gradient-to-br from-amber-500/10 to-zinc-900/60 backdrop-blur-md border border-amber-500/30 transition-all">
+                            <span class="text-amber-400 text-xs font-bold tracking-widest uppercase">Credentials &amp; Languages</span>
+                            <h3 class="font-['Syncopate'] text-lg font-bold text-white mt-2 mb-3">ISTQB&reg; Certified Tester (CTFL)</h3>
+                            <p class="text-gray-300 text-sm mb-6">Foundation Level Certification in Software Testing &amp; V&amp;V Methodologies</p>
+                            <div class="border-t border-white/10 pt-4 space-y-1.5 text-xs text-gray-300">
+                                <div class="flex justify-between"><span>Arabic</span><span class="text-amber-400">Native</span></div>
+                                <div class="flex justify-between"><span>French</span><span class="text-amber-400">Proficient</span></div>
+                                <div class="flex justify-between"><span>English</span><span class="text-amber-400">Proficient</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Core Engineering & V&V Domains (Interactive Cards -> Overlay) -->
+            <section id="projects" class="py-32 px-6 md:px-10 bg-zinc-950/40">
+                <p class="text-center font-['Space_Grotesk'] text-amber-400 tracking-[0.25em] text-sm uppercase mb-3">Technical Deep-Dives</p>
+                <h2 class="font-['Syncopate'] text-4xl md:text-6xl font-bold mb-6 text-center uppercase section-title">
+                    V&amp;V &amp; Systems<br>Domains
+                </h2>
+                <p class="text-center font-['Space_Grotesk'] text-gray-400 mb-20 max-w-2xl mx-auto">
+                    Click on any technical domain below to explore the verification workflows, safety standards, and engineering architectures delivered across my railway and automotive projects.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto" id="project-grid">
+                    <!-- Domain cards injected via app.js -->
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="min-h-[70vh] py-32 px-6 flex flex-col items-center justify-center relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-t from-amber-900/20 to-transparent -z-10"></div>
+                <h2 class="font-['Syncopate'] text-5xl md:text-8xl font-bold mb-8 text-center uppercase relative z-10 contact-title">
+                    Let's<br>Connect
+                </h2>
+                <p class="font-['Space_Grotesk'] text-xl text-gray-300 text-center max-w-2xl mb-10 relative z-10">
+                    Open to Railway Signalling V&amp;V, ERTMS/ETCS, ATP/ATO, and Safety-Critical Embedded Systems opportunities.
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-4 mb-12 relative z-10 font-['Space_Grotesk'] text-sm text-gray-300">
+                    <a href="mailto:achrafmzyiene2000@gmail.com" class="px-5 py-2.5 rounded-full bg-white/5 border border-white/10 hover:border-amber-400 transition-all">
+                        <i class="fas fa-envelope text-amber-400 mr-2"></i>achrafmzyiene2000@gmail.com
+                    </a>
+                    <a href="tel:+212682946746" class="px-5 py-2.5 rounded-full bg-white/5 border border-white/10 hover:border-amber-400 transition-all">
+                        <i class="fas fa-phone text-amber-400 mr-2"></i>+212 6 82 94 67 46
+                    </a>
+                    <a href="https://www.linkedin.com/in/achraf-mzyiene-127778214/" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-full bg-white/5 border border-white/10 hover:border-amber-400 transition-all">
+                        <i class="fab fa-linkedin text-amber-400 mr-2"></i>linkedin.com/in/achraf-mzyiene-127778214
+                    </a>
+                </div>
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=achrafmzyiene2000@gmail.com" target="_blank" rel="noopener noreferrer" class="relative inline-flex items-center justify-center px-10 py-5 overflow-hidden font-['Space_Grotesk'] font-bold text-white bg-transparent border-2 border-amber-400 rounded-full hover:bg-amber-400 hover:text-black transition-all duration-300 group z-10">
+                    <span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
+                    <span class="relative">INITIATE TRANSMISSION</span>
+                </a>
+            </section>
+
+            <!-- Footer -->
+            <footer class="py-8 border-t border-white/10 text-center font-['Space_Grotesk'] text-sm text-gray-500">
+                <p>&copy; 2026 Achraf Mzyiene. Safety-Critical Railway &amp; Embedded Systems Engineering.</p>
+            </footer>
+
+        </div>
+    </main>
+
+    <!-- Case Study Detail Overlay ( able Page) -->
+    <div id="project-overlay" class="fixed inset-0 bg-zinc-950 z-50 transform translate-y-full transition-transform duration-700 ease-[cubic-bezier(0.76,0,0.24,1)] overflow-y-auto">
+        <div class="min-h-screen relative pb-32">
+            <!-- Close Button -->
+            <button id="close-overlay" class="fixed top-6 right-6 md:top-10 md:right-10 w-12 h-12 bg-white/10 hover:bg-amber-500 hover:text-black rounded-full flex items-center justify-center backdrop-blur-md transition-all z-50">
+                <i class="fas fa-times text-xl"></i>
+            </button>
+            
+            <!-- Dynamic Content Container -->
+            <div id="overlay-content" class="w-full">
+                <!-- Injected via app.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ Trigger.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
